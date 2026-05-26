@@ -16,7 +16,7 @@ public class Anggota {
         return tipe;
     }
     public void tampilkanInfo() {
-        System.out.println(idAnggota + " - " + nama + " - " + tipe);
+        System.out.println(idAnggota + " " + nama + " " + tipe);
     }
     @Override
     public boolean equals(Object o) {
